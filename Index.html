@@ -1,38 +1,99 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cianney - Site Officiel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C-SERVICE | Solutions Digitales</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(120deg, #24243e, #302b63, #0f0c29);
-      color: white;
+      background: #000;
+      color: #fff;
+    }
+    header {
       text-align: center;
-      padding: 50px 20px;
+      padding: 60px 20px;
     }
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.2em;
+    header h1 {
+      color: gold;
+      font-size: 40px;
     }
-    p {
-      font-size: 1.2em;
+    header p {
+      font-size: 18px;
+      opacity: 0.8;
     }
-    .contact {
-      margin-top: 40px;
-      font-size: 1em;
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: gold;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #111;
+      padding: 20px;
+      border: 1px solid gold;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid gold;
     }
   </style>
 </head>
 <body>
-  <h1>Cianney Officiel</h1>
-  <p>Votre confiance, notre engagement – Cianney.</p>
-  <div class="contact">
-    📞 0848681325<br />
-    📍 Route Kansimba, près de salle de fête chez Réparateur Héritier<br />
-    📸 Instagram : @cianney_officiel
+
+<header>
+  <h1>C-SERVICE</h1>
+  <p>Excellence digitale | Création - Design - Performance</p>
+  <a href="https://wa.me/243858289254" class="btn">Contact WhatsApp</a>
+</header>
+
+<section>
+  <h2>Nos Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>🎬 Montage Vidéo</h3>
+      <p>Vidéo professionnelle pour TikTok, clips, business</p>
+    </div>
+    <div class="card">
+      <h3>🌐 Création de site</h3>
+      <p>Sites modernes, rapides et professionnels</p>
+    </div>
+    <div class="card">
+      <h3>🎨 Design Logo</h3>
+      <p>Identité visuelle unique et impactante</p>
+    </div>
+    <div class="card">
+      <h3>📱 Réseaux sociaux</h3>
+      <p>Gestion et croissance de votre audience</p>
+    </div>
   </div>
+</section>
+
+<section>
+  <h2>Pourquoi nous choisir ?</h2>
+  <p>Nous transformons vos idées en projets professionnels puissants.</p>
+</section>
+
+<footer>
+  <p>Contact : 0858289254</p>
+  <p>© 2026 C-SERVICE - Tous droits réservés</p>
+</footer>
+
 </body>
 </html>
